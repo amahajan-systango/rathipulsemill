@@ -1,0 +1,408 @@
+
+html {
+	height:100%;
+	}
+	
+body {
+	font: normal small Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin:0;
+	height:100%;
+	background-repeat:repeat-x;
+	background-color:#000000;	
+	padding: 0;
+	margin:0px;
+	text-align:center;
+	position:relative;
+
+}
+.clear {
+	clear:both;
+}
+#wrapper
+	{
+	width:980px;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+	min-height:100%;
+	}
+
+form {
+}
+
+fieldset {
+	border: 0px solid #000;
+}
+
+legend {
+	border: 0px solid #000;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	color:#ffffff;
+}
+
+h2 {
+	margin-bottom: .5em;
+	font-size: 1.8em;
+}
+
+h3 {
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	/*line-hght: 1.8em;*/
+}
+
+p {
+}
+
+blockquote {
+}
+
+ul {
+	margin-left: 2em;
+	list-style: square;
+}
+
+ul li {
+}
+
+ol {
+	margin-left: 2em;
+	list-style: lower-roman;
+}
+
+ol li {
+}
+
+a {
+	color: #EA672E;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #11A6D4;
+}
+
+img {
+	border: none;
+}
+
+/* Boxed Style */
+
+.boxed {
+	margin-bottom: 1em;
+	background: #F7F7F7 url(../../images/platina/img07.gif) repeat-x;
+	border: 1px solid #CCCCCC;
+}
+
+.boxed .title {
+	height: 29px;
+	padding: 11px 0 0 27px;
+	background: url(../../images/platina/img08.gif) no-repeat 10px 50%;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+
+.boxed .page {
+	padding: 10px;
+}
+
+/* r */
+
+#header {
+	width:980px;
+	height:160px;
+	margin: 0 auto;
+}
+
+/* 820pxr > Logo */
+
+#logo {
+	padding:130px 0 0 0;
+	width:100%;
+}
+
+#logo h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+#logo h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	text-align:center;
+}
+
+#logo a {
+	text-decoration: none;
+	color:#000;
+	font-size:150%;
+	letter-spacing:4px;
+	text-transform:uppercase;
+	font-family:"Trajan Pro";	
+}
+
+/* Header > Top Menu */
+
+#top1 {
+	float: right;
+}
+
+#topmenu ul {
+	margin: 0;
+	padding: 100px 0 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#topmenu li {
+	display: inline
+}
+
+#topmenu a {
+	display: block;
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: x-small;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#topmenu a:hover {
+	text-decoration: underline
+}
+
+#topmenu1 {
+	background: url(../../images/platina/img03.gif) no-repeat left center;
+}
+
+#topmenu2 {
+	background: url(../../images/platina/img04.gif) no-repeat left center;
+}
+
+#topmenu3 {
+	background: url(../../images/platina/img05.gif) no-repeat left center;
+}
+
+/* Menu */
+
+#menu{
+	border:0px solid #000;
+	margin:10px auto;
+	position:relative;
+	display:block;
+	height:49px;
+	font-size:12px;
+	font-weight:bold;
+	_width:830px;
+	border-radius: 10px 10px 10px 10px;
+	background-image:url(../../images/platina/menu_bg.png); repeat-x top left;
+	font-family:Arial,Verdana,Helvitica,sans-serif;text-transform:uppercase;}
+#menu ul{margin:0px 0px 0px 23px; padding:0;list-style-type:none;width:auto;}
+#menu ul li{display:block;float:left;margin:0 1px 0 0; border-right:0px solid #460202;}
+#menu ul li a{display:block;float:left;color:#3a1e02; font-weight:20%; text-decoration:none;padding:17px 16px 0 16px;height:31px;}
+#menu ul li a:hover,#menu ul li a.current{
+color:#000;
+background-image:url(../../images/platina/menu_hover.png);
+color:#fff;
+}
+
+
+/* Content */
+
+#page {
+	width:980px;
+	margin: 0 auto;
+
+}
+
+/* Content > Main */
+
+#content {
+	width: 97%;
+	margin:auto;
+	color:#ffffff;
+	padding: 0px 10px 10px 0;
+	height:auto !important;
+	height:465px;
+}
+
+#content strong
+	{
+	font-weight:bold;
+	/*text-transform:uppercase;*/
+	font-size:15px;
+	/*border-bottom:2px solid #000;*/
+	/*color:#111111;*/
+	}
+#content p 
+	{
+	margin: 0 0 12px;
+	padding-top:4px;	
+	font-size:12px;
+	color:#FFFFFF;
+	}
+
+#content h2
+	{
+	/*border-bottom:1px solid #c07f6b;*/
+	color:#000	;
+	padding-top:8px;
+	font-family:"Trajan Pro";
+	background-repeat:no-repeat ;
+	background-position:left;
+
+	}
+#content strong
+	{
+	font-size:14px;
+	/*color:#DC921D;*/
+	}
+/* Content > Main > Example */
+
+#example {
+}
+
+/* Content > Main > Welcome */
+
+#welcome {
+	margin: 0 0 3em 0;
+	padding: 10px 0 1.5em 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+#footer {
+	clear: both;
+	width:100%;
+	margin:0 auto;
+
+	border: 0px solid #CCCCCC;
+	/*background-image:url(../../images/platina/01.jpg);*/
+	text-decoration:none;
+	_width:830px;
+	width:975px;
+	position:absolute;
+	bottom:	0;
+	margin-bottom:10px;
+}
+
+/* Footer > Legal */
+
+#legal {
+	margin: 0;
+	padding: 7px;
+	text-align: center;
+	text-decoration:none;
+	color: #fff;
+}
+
+#legal a {
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration:none;
+}
+
+/* Footer > Links */
+
+#links {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+`
+div.suggestDiv
+{
+	clear: both;
+	width: 100%;
+	border:0px solid #000;	
+	font-size:15px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#CCCCCC;
+	height:100px;
+	margin:0 auto;
+}
+
+#adSense
+{
+    border: 0 solid #000000;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    height: 171px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    width: 800px;
+}
+#adSense a, #adSense a:hover {
+	color:#212121 !important;
+}
+input[type="submit"] {
+    background: url(../../images/platina/button_bg.png);
+    border: 0 none;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 29px;
+    width: 102px;
+}
+
+input[type="submit"]:hover {
+    background: url(../../images/platina/button_bg.png) -1px 29px;
+    cursor:pointer;
+    width: 102px;
+}
+
+.contact_tab input, .feedback_tab input[type="text"] {
+	 background:  url(../../images/platina/contact_field_sprite.png) no-repeat scroll left top transparent ;
+    border: medium none;
+    color: grey;
+    font: 12px/40px Verdana,Geneva,sans-serif;
+    height:34px;
+    padding: 0 5px;
+    width: 348px 
+}
+
+.contact_tab input[type="submit"], .feedback_tab input[type="submit"] {
+background: url(../../images/platina/send_bttn.png) no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 40px;
+    width: 134px;
+	text-indent:-9999px;
+}
+
+.contact_tab textarea {
+ background: url("../../images/platina/contact_field_sprite.png") no-repeat scroll 0 -50px transparent;
+    border: medium none;
+    color: grey;
+    font: 12px/20px Verdana,Geneva,sans-serif;
+    height: 86px !important;
+    overflow: auto;
+    padding: 10px 0 5px 5px;
+    width: 293px !important;
+	}
+
+
+
+
+
+
+#FeedbackCaptcha{
+	background:white !important;
+	 width: 100px !important;
+	 height:27px !important;
+	 color:#000000 !important;
+}
+

@@ -1,0 +1,33 @@
+<link rel='stylesheet' type='text/css' href='http://arshaw.com/js/fullcalendar-1.5.4/fullcalendar/fullcalendar.css' />
+<script type='text/javascript' src='http://arshaw.com/js/fullcalendar-1.5.4/jquery/jquery-1.8.1.min.js'></script>
+<script type='text/javascript' src='http://arshaw.com/js/fullcalendar-1.5.4/jquery/jquery-ui-1.8.23.custom.min.js'></script>
+<script type='text/javascript' src='http://arshaw.com/js/fullcalendar-1.5.4/fullcalendar/fullcalendar.min.js'></script>
+
+
+ <script type='text/javascript'>
+    $(document).ready(function() {
+		var date = new Date();
+		var d = date.getDate();
+		var m = date.getMonth();
+		var y = date.getFullYear();
+        $('#calendar').fullCalendar({
+           header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+			editable: true,
+			events: '/calendar/events',
+            eventClick: function(event) {
+                window.location = event.url;
+                return false;
+            }, 
+		});
+
+    });
+</script>
+<div id="content">
+  <div id="eventdata"></div>
+  <div id='loading' style='display:none'>loading...</div>
+  <div id='calendar'></div>
+</div>>

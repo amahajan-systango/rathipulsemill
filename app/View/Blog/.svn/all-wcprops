@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/cakewind/!svn/ver/2/trunk/app/View/Blog
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cakewind/!svn/ver/2/trunk/app/View/Blog/index.ctp
+END
+blog_post.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/cakewind/!svn/ver/2/trunk/app/View/Blog/blog_post.ctp
+END

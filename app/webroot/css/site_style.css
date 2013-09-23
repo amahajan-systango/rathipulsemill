@@ -1,0 +1,23 @@
+/* Flash Messages*/
+.success {
+    background-color: #F0FFF0;
+    color: #3A863A;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+.error {
+    background-color: #FEA7A7;
+    color: #FF0000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+.comment_bg{
+	background-image: url(../images/comment.gif);
+}
+.error-message{
+	color: #FF0000;
+}

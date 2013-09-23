@@ -1,0 +1,31 @@
+
+<div id="content">
+	<div style="margin-left: 30px;">
+		<a href="<?=SITE_URL?>/forum/postQuestion">Add Questing</a>
+	</div>
+	<hr/>
+	
+	<table class="list_page">
+		<tr>
+			<th>Title</th>
+			<th>Posted By</th>
+			<th>Category</th>
+			<th>Posted Date</th>
+		</tr>
+	  <?php if(count($forums)>0):?>
+		<?php foreach($forums as $forum):?>
+		<tr>
+			<td><?php echo $this->Html->link($forum['ForumQuestion']['title']."(".$forum[0]['count'].")", SITE_URL.'/forum/'.$forum["ForumQuestion"]["id"], array('class' => 'button')); ?></td>
+			<td><?php echo $forum['ForumQuestion']['posted_by']; ?></td>
+			<td><?php echo $forum['ForumCategory']['name']; ?></td>
+			<td><?php echo $forum['ForumQuestion']['date']; ?></td>
+		</tr>	  
+		<?php endforeach;?>
+	  
+	  <?php else:?>
+		<tr>
+			<td colspan="4"><div style="text-align: center; color: rgb(129, 16, 15); font-size: 18px;">There is no forum posted.</div></td>	
+		</tr>	  
+	  <?php endif;?>
+	</table>
+</div>	
